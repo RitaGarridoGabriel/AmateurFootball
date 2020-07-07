@@ -28,3 +28,10 @@ This page is presented only for users with admin privileges and
 - allows to block/unblock users
 - allows to give/take tournament management privileges to users
 - read system notifications and notifications from other users
+
+# Database setup
+1. Create a MySQL database using the createInsert.sql file
+2. Place the contents of the repository in the xampp htdocs folder (or equivalent)
+3. Change the php_functions / connect.php file with the username and password of a user of your database with privileges for the FutebolAmador database or create a new user with the credentials Username: rita and password : ritapass
+4. Connect xampp's Apache and MySQL services (or equivalent)
+5. Access the application through the browser at the address localhost/index.php
